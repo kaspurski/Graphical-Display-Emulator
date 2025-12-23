@@ -1,1 +1,1 @@
-Visuals not fully finished 
+Visuals not fully finished.
