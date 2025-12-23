@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="stuffContainer">
+      <div class="canvasContainer">
+        <canvas
+          id="myCanvas"
+          class="myCanvas"
+          width="750"
+          height="625"
+          style="border: 1px solid black"
+        >
+          Your browser does not support canvas!
+        </canvas>
+      </div>
+
+      <div>
+        <div class="buttonContainer">
+          <input
+            type="button"
+            name="putPixel"
+            id="btnPutPixel"
+            class="putPixel"
+            value="putPixel"
+          />
+          <input
+            type="button"
+            name="line"
+            id="btnLine"
+            class="line"
+            value="line"
+          />
+          <input
+            type="button"
+            name="rectangle"
+            id="btnRectangle"
+            class="rectangle"
+            value="rectangle"
+          />
+          <input
+            type="button"
+            name="triangle"
+            id="btnTriangle"
+            class="triangle"
+            value="triangle"
+          />
+          <input
+            type="button"
+            name="circle"
+            id="btnCircle"
+            class="circle"
+            value="circle"
+          />
+          <input
+            type="button"
+            name="render"
+            id="btnRender"
+            class="render"
+            value="render"
+          />
+
+          <input
+            type="text"
+            name="putPixeltxt"
+            id="putPixeltxt"
+            class="putPixeltxt"
+            placeholder="x, y, color"
+            hidden
+          />
+
+          <input
+            type="text"
+            name="linetxt"
+            id="linetxt"
+            class="linetxt"
+            placeholder="x1, y1, x2, y2, color"
+            hidden
+          />
+
+          <input
+            type="text"
+            name="rectangletxt"
+            id="rectangletxt"
+            class="rectangletxt"
+            placeholder="x1, y1, x2, y2, color"
+            hidden
+          />
+
+          <input
+            type="text"
+            name="triangletxt"
+            id="triangletxt"
+            class="triangletxt"
+            placeholder="x1, y1, x2, y2, x3, y3, color"
+            hidden
+          />
+
+          <input
+            type="text"
+            name="circletxt"
+            id="circletxt"
+            class="circletxt"
+            placeholder="cx, cy, cr, color"
+            hidden
+          />
+        </div>
+      </div>
+
+      <div>
+        <input type="button" name="left" id="left" value="left" />
+        <input type="button" name="right" id="right" value="right" />
+
+        <input type="button" name="up" id="up" value="up" />
+        <input type="button" name="down" id="down" value="down" />
+
+        <input type="button" name="upLeft" id="upLeft" value="upLeft" />
+        <input type="button" name="upRight" id="upRight" value="upRight" />
+
+        <input type="button" name="downLeft" id="downLeft" value="downLeft" />
+        <input
+          type="button"
+          name="downRight"
+          id="downRight"
+          value="downRight"
+        />
+      </div>
+
+      <div>
+        <input type="button" name="pLeft" id="pLeft" value="pLeft" />
+        <input type="button" name="pRight" id="pRight" value="pRight" />
+
+        <input type="button" name="pUp" id="pUp" value="pUp" />
+        <input type="button" name="pDown" id="pDown" value="pDown" />
+
+        <input type="button" name="pUpLeft" id="pUpLeft" value="pUpLeft" />
+        <input type="button" name="pUpRight" id="pUpRight" value="pUpRight" />
+
+        <input
+          type="button"
+          name="pDownLeft"
+          id="pDownLeft"
+          value="pDownLeft"
+        />
+        <input
+          type="button"
+          name="pDownRight"
+          id="pDownRight"
+          value="pDownRight"
+        />
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
